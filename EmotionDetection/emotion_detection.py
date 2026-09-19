@@ -6,7 +6,7 @@ import json
 import requests
 
 
-def emotion_detector(text_to_analyze):
+def emotion_detector(text_to_analyse):
     ''' this function takes the text from the user, sends it to the
         watson emotion detection service and returns a dict with the
         five emotion scores and the dominant emotion
@@ -16,7 +16,7 @@ def emotion_detector(text_to_analyze):
     # model id header, same one used in the labs
     header = {"grpc-metadata-mm-model-id": "emotion_aggregated-workflow_lang_en_stock"}
     # the input has to be sent in this format
-    myobj = {"raw_document": {"text": text_to_analyze}}
+    myobj = {"raw_document": {"text": text_to_analyse}}
 
     # post the text to the service
     response = requests.post(url, json=myobj, headers=header, timeout=10)
