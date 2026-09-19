@@ -1,7 +1,7 @@
 # Emotion Detection using Watson NLP
 
 ## Project Name
-Emotion Detection Web Application - Final Project (Embeddable Watson AI)
+Final Project - Emotion Detection Application using Watson NLP
 
 ## About
 This is my final project for the course. It is a web app that takes customer
